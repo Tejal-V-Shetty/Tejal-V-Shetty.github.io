@@ -180,17 +180,25 @@ header h1{
 }
 
 .displayImageIcon{
-	width: 700px;
-	height: 350px;
+	width: 40vw;
+	height: 40vh;
 	border-radius: 2px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1280px) {
+	.displayImageIcon{
+		width: 40vw;
+		height: 30vh;
+	}
+}
+
+@media only screen and (max-width: 700px) {
 	.displayImageIcon{
 		width: 80vw;
 		height: 30vh;
 	}
 }
+
 .displayImageText{
 	position: absolute;
 	font-size: 40px;
@@ -265,14 +273,22 @@ header h1{
 
 .contentImage{
 	display: block;
-	width: 1080px;
+	width: 60vw;
+	height: 60vh;
+	border-radius: 2px;
 	margin: 0 auto;
 }
+
+@media only screen and (max-width: 1200px) {
+	.contentImage{
+		height: 40vh;
+	}
+}
+
 @media only screen and (max-width: 700px) {
 	.contentImage{
-		display: block;
-		width: 540px;
-		margin: 0 auto;
+		width: 65vw;
+		height: 25vh;
 	}
 }
 
