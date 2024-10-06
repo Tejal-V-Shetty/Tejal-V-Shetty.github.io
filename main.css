@@ -192,7 +192,14 @@ header h1{
 	}
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px) {
+	.displayImageIcon{
+		width: 60vw;
+		height: 30vh;
+	}
+}
+
+@media only screen and (max-width: 600px) {
 	.displayImageIcon{
 		width: 80vw;
 		height: 30vh;
@@ -281,7 +288,15 @@ header h1{
 
 @media only screen and (max-width: 1200px) {
 	.contentImage{
+		width: 65vw;
 		height: 40vh;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.contentImage{
+		width: 65vw;
+		height: 35vh;
 	}
 }
 
