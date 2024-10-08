@@ -183,23 +183,10 @@ header h1{
 	width: 40vw;
 	height: 40vh;
 	border-radius: 2px;
+	object-fit:cover;
 }
 
-@media only screen and (max-width: 1280px) {
-	.displayImageIcon{
-		width: 40vw;
-		height: 30vh;
-	}
-}
-
-@media only screen and (max-width: 1000px) {
-	.displayImageIcon{
-		width: 60vw;
-		height: 30vh;
-	}
-}
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 720px) {
 	.displayImageIcon{
 		width: 80vw;
 		height: 30vh;
@@ -284,6 +271,7 @@ header h1{
 	height: 60vh;
 	border-radius: 2px;
 	margin: 0 auto;
+	object-fit:cover;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -350,7 +338,7 @@ header h1{
 }
 
 .repoLink{
-	text-align: center;
+	text-align: right;
 }
 
 /* Footer */
