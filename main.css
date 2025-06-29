@@ -303,6 +303,22 @@ header h1{
 	}
 }
 
+.contentImage_Vert{
+	display: block;
+	width: 25vw;
+	height: 70vh;
+	border-radius: 2px;
+	margin: 0 auto;
+	object-fit:cover;
+}
+
+@media only screen and (max-width: 1200px) {
+	.contentImage_Vert{
+		width: 40vw;
+		height: 60vh;
+	}
+}
+
 .contentDoc{
 	display: block;
 	width: 1080px;
