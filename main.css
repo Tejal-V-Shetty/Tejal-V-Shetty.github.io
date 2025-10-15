@@ -345,6 +345,14 @@ header h1{
 	text-align: center;
 }
 
+.contentImageText_Explanation{
+	margin:5px;
+	margin-left: 15%;
+	color: #b3b3b3;
+	font-size: 20px;
+	text-align: left;
+}
+
 .displayProject{
 	border: solid rgba(123, 240, 255, 0.2);
 	border-radius: 2px;
